@@ -1,6 +1,14 @@
-c = input('Введите математическое действие')
-a = int(input('1-ое значение'))
-b = int(input('2-ое значение'))
+command = input('Введите через пробелы математическое действие и два целых числа')
+command_list = command.split()
+c = command_list[0]
+a = int(command_list[1])
+b = int(command_list[2])
+# print(c)
+# print(a)
+# print(b)
+# # c = input('Введите математическое действие')
+# # a = int(input('1-ое значение'))
+# # b = int(input('2-ое значение'))
 
 print('Результат математического действия', c, a, b)
 
